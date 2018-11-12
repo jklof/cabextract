@@ -28,7 +28,9 @@ run extract / inspection tool list files in a cab archive
 
 There is one example file in the testdata directory.
 
+Add LD_LIBRARY_PATH to commad line if lib is not found, for example
 
+    LD_LIBRARY_PATH=. ./cabextract_test
 
 
 
